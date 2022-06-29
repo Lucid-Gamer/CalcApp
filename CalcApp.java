@@ -25,11 +25,11 @@ public class CalcApp{
         double c;
         if(a>b)
         {
-            c = a/b;
+            c =(double)a/b;
         }
         else
         {
-            c=b/a;
+            c =(double)b/a;
         }
         return c;
     }
